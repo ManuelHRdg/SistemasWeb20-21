@@ -10,3 +10,5 @@ comandos básicos de git
     git push
 5. obtener los cambios
     git pull
+6. observar cambios
+    git status
