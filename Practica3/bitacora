@@ -1,0 +1,12 @@
+comandos básicos de git
+
+1. clonar
+    git clone url_del_repo
+2. agregar cambios
+    git add -A
+3. hacer commit
+    git commit -m "mensaje con cambios"
+4. enviar cambios al repo 
+    git push
+5. obtener los cambios
+    git pull
