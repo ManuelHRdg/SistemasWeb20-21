@@ -25,6 +25,14 @@
       <scope>test</scope>
     </dependency>
 
+    <!-- Para generar loggeo de informacion -->
+    <dependency>
+      <groupId>org.slf4j</groupId>
+      <artifactId>slf4j-simple</artifactId>
+      <version>1.7.21</version>
+    </dependency>
+
+
     <!-- https://mvnrepository.com/artifact/com.sparkjava/spark-core -->
     <dependency>
       <groupId>com.sparkjava</groupId>
