@@ -28,7 +28,7 @@ public class App
         });
         before((request, response) -> response.header("Access-Control-Allow-Origin", "*"));
 
-        
+        get("/", (req, res) -> "Hola desde Spark");
         get("/hola", (req, res) -> "Hola hola");
         get("/adios", (req, res) -> "Adios desde Spark");
     }
